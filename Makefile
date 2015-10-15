@@ -36,7 +36,7 @@ endif
 .PHONY: all compile doc clean test dialyzer typer shell distclean pdf \
 	get-deps
 
-all: compile dialyzer test
+all: compile
 
 # =============================================================================
 # Rules to build the system
